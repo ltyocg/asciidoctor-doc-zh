@@ -1,21 +1,21 @@
 = Asciidoctor 文档站点
 :navtitle: 主页
-:description: Asciidoctor 及系列文档的主页。发现在 AsciiDoc 中编写内容并使用 Asciidoctor 发布的参考资料、指南、示例。
+:description: Asciidoctor 及系列文档的主页。发现用 AsciiDoc 编写的内容并使用 Asciidoctor 发布的参考资料、指南、示例。
 :page-role: home
 :page-aliases: home.adoc
 
 欢迎来到 Asciidoctor 文档站点!
-在这里<<search-tips,你可以找到>>在 AsciiDoc 中编写内容并使用 Asciidoctor 发布的参考资料、指南、示例。
+在这里<<search-tips,你可以找到>>用 AsciiDoc 编写的内容并使用 Asciidoctor 发布的参考资料、指南、示例。
 本文档将帮助您开始您的 AsciiDoc 之旅，或者在您已在的道路上继续深入研究。
 
 [.panel]
 --
 [discrete]
-== xref:asciidoc::index.adoc[学习 AsciiDoc]
+== xref:asciidoc::README.adoc[学习 AsciiDoc]
 
 AsciiDoc 是一种纯文本创作格式（即轻量级标记语言），用于编写文档、文章和书籍等技术内容。
-If you're just starting out with AsciiDoc, or want to discover what it's all about, head over to the xref:asciidoc::index.adoc[documentation for the AsciiDoc Language].
-You'll learn everything from how to make your first AsciiDoc document to how to use advanced language features such as list continuations and tailoring substitutions.
+如果您刚开始接触 AsciiDoc，或者想了解它的全部内容，请前往xref:asciidoc::index.adoc[AsciiDoc 语言文档]。
+您将学习从如何制作您的第一个 AsciiDoc 文档到如何使用高级语言功能（如列表延续和定制替换）的所有内容。
 
 If you need a condensed refresher, or want a glimpse of what AsciiDoc has to offer, check out the xref:asciidoc::syntax-quick-reference.adoc[syntax quick reference].
 You can also find a side-by-side xref:asciidoc::asciidoc-vs-markdown.adoc[comparison with Markdown] if you're looking to upgrade.
