@@ -1,11 +1,11 @@
 = Asciidoctor 文档站点
 :navtitle: 主页
-:description: Asciidoctor 及系列文档的主页。发现用 AsciiDoc 编写的内容并使用 Asciidoctor 发布的参考资料、指南、示例。
+:description: Asciidoctor 及系列文档的主页。发现用 AsciiDoc 编写并使用 Asciidoctor 发布的参考资料、指南、示例。
 :page-role: home
 :page-aliases: home.adoc
 
 欢迎来到 Asciidoctor 文档站点!
-在这里<<search-tips,你可以找到>>用 AsciiDoc 编写的内容并使用 Asciidoctor 发布的参考资料、指南、示例。
+在这里<<search-tips,你可以找到>>用 AsciiDoc 编写并使用 Asciidoctor 发布的参考资料、指南、示例。
 本文档将帮助您开始您的 AsciiDoc 之旅，或者在您已在的道路上继续深入研究。
 
 [.panel]
@@ -17,20 +17,23 @@ AsciiDoc 是一种纯文本创作格式（即轻量级标记语言），用于�
 如果您刚开始接触 AsciiDoc，或者想了解它的全部内容，请前往xref:asciidoc::index.adoc[AsciiDoc 语言文档]。
 您将学习从如何制作您的第一个 AsciiDoc 文档到如何使用高级语言功能（如列表延续和定制替换）的所有内容。
 
-If you need a condensed refresher, or want a glimpse of what AsciiDoc has to offer, check out the xref:asciidoc::syntax-quick-reference.adoc[syntax quick reference].
-You can also find a side-by-side xref:asciidoc::asciidoc-vs-markdown.adoc[comparison with Markdown] if you're looking to upgrade.
+如果您需要简明复习，或想了解 AsciiDoc 提供的内容，请查看xref:asciidoc::syntax-quick-reference.adoc[语法快速参考]。
+如果你想了解升级部分也可以一并查看xref:asciidoc::asciidoc-vs-markdown.adoc[与 Markdown 比较]。
 --
 
 [.panel]
 --
 [discrete]
-== xref:asciidoctor::index.adoc[Process your AsciiDoc content]
+== xref:asciidoctor::index.adoc[处理您的 AsciiDoc 内容]
 
 The AsciiDoc language documentation is primarily about the source you type to compose a document.
 One you're done writing and want to publish your AsciiDoc document, you'll need an AsciiDoc processor.
 That's where Asciidoctor fits in.
+AsciiDoc 语言文档主要是关于您为编写文档而输入的源代码。
+当您写完并想发布您的 AsciiDoc 文档时，您会需要一个 AsciiDoc 处理器。
+这就是 Asciidoctor 适合的场景。
 
-xref:asciidoctor::index.adoc[Asciidoctor] is the core AsciiDoc processor.
+xref:asciidoctor::index.adoc[Asciidoctor] 是 AsciiDoc 的核心处理器。
 It reads the AsciiDoc source, parses it into a document model, and converts it to a publishable format such as HTML using a converter.
 Asciidoctor has both a xref:asciidoctor:cli:index.adoc[CLI] and an xref:asciidoctor:api:index.adoc[API] that you can use to invoke a built-in converter (HTML, DocBook, man page) or an add-on converter.
 Asciidoctor enriches the HTML it produces from AsciiDoc by applying a xref:asciidoctor:html-backend:default-stylesheet.adoc[default stylesheet], adding stylistic icons, and xref:asciidoctor:syntax-highlighting:index.adoc[syntax highlighting] source blocks.
