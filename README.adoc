@@ -26,9 +26,6 @@ AsciiDoc 是一种纯文本创作格式（即轻量级标记语言），用于�
 [discrete]
 == xref:asciidoctor::index.adoc[处理您的 AsciiDoc 内容]
 
-The AsciiDoc language documentation is primarily about the source you type to compose a document.
-One you're done writing and want to publish your AsciiDoc document, you'll need an AsciiDoc processor.
-That's where Asciidoctor fits in.
 AsciiDoc 语言文档主要是关于您为编写文档而输入的源代码。
 当您写完并想发布您的 AsciiDoc 文档时，您会需要一个 AsciiDoc 处理器。
 这就是 Asciidoctor 适合的场景。
